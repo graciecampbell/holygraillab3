@@ -1,0 +1,142 @@
+<body>
+
+    <header>
+      <p> The header has a fixed position because as you scroll through the page, you want the header to always be in the same spot, and the fixed position allows this! </p>
+    </header>
+
+    <nav>
+      <p> Same as the header, while you scroll you want the navigation bar to be in the same position so you can easily switch between pages and not have to scroll all the way back up to switch to a different page.</p>
+    </nav>
+
+    <div>
+
+        <div class="articles">
+
+            <article> <p> The relative position means the element is in a position relative to where it normally is, allowing it to move across the screen while you scroll.</p></article>
+
+            <article> </article>
+
+        </div>
+
+    <aside>
+        <p>The relative position means the element is in a position relative to where it normally is, allowing it to move across the screen while you scroll. </p></aside>
+
+    </div>
+
+    <footer>
+        <p> The footer is fixed so it always stays at the bottom of the screen while scrolling.</p>
+    </footer>
+  </div>
+<style>
+ 
+
+  header {
+
+    width: 90%;
+
+    height: 100px;
+
+    background-color: #E6E39A;
+
+    border: 3px dotted pink;
+
+    padding: 10px;
+
+    margin: 25px;
+      
+    position: fixed;
+  
+
+}
+
+  
+
+nav {
+
+    position: fixed;
+
+    width: 90%;
+
+    height: 50px;
+
+    background-color: #E6A28E;
+
+    position: fixed;
+
+    top: 170px;
+
+    left: 35px;
+
+}
+
+
+
+article{
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: #50E6D2;
+
+    border: 5px solid grey;
+
+    position: fixed;
+
+    top: 300px;
+
+    left: 35px;
+}
+
+
+
+aside {
+
+    width: 40%;
+
+    height: 420px;
+
+    background-color: #51998F;
+
+    position: relative;
+
+    left: 50%;
+
+    right: 35px;
+
+    top: 300px;
+
+}
+
+
+
+footer {
+
+    width: 100%;
+
+    height: 20px;
+
+    background-color: #E6E39A;
+
+    position: fixed;
+
+    bottom: 0px;
+
+}
+
+
+
+.articles {
+
+    position: relative;
+
+    left: 30px;
+
+    top: 45px;
+
+    width: 65%;
+
+    height: 70%;
+
+}
+</style>
